@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="descritpion" content="SkillUp Homework 6">
+    <meta name="keywords" content="HTML form, HTML meta tag, CSS">
+    <meta name="author" content="Cantemirov Dmitrii">
+    <meta name="viewport" content="width=device-width, initial-scake=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="/server/suslik/enot">
+            <label for="yourname">Your Name</label>
+            <input type="text" name="yourname" placeholder="Your Name" id="yourname" required> <br>
+            <label for="youremail">Your Email</label>
+            <input type="text" name="youremail" placeholder="Your Name" id="youremail" required> <br>
+
+            <div class="div2">
+                <fieldset>
+                    <legend>Whats's this all about?</legend>
+                    <label for="hello">Say Hello</label>
+                    <input type="checkbox" name="hello" id="hello">
+                    <label for="complain">Complain</label>
+                    <input type="checkbox" name="complain" id="complain">
+                    <label for="joke">Share a joke</label>
+                    <input type="checkbox" name="joke" id="joke">
+                </fieldset>
+                <div class="div3">
+                    <label for="musicperiods"></label>
+                    <select name="musicperiods" id="musicperiods">
+            <option value="">Subject</option>
+            <optgroup label="Music Periods">
+                <option value="Bq">Baroque</option>
+                <option value="GE">Galant Era</option>
+                <option value="CE">Classical Era</option>
+                <option value="RE">Romantic Era</option>
+            </optgroup>
+          </select>
+                </div>
+                <div class="div4">
+                    <label for="comment">Your Message</label>
+                    <textarea name="comment" id="comment" placeholder="Write Something" cols="50" rows="15"></textarea>
+                </div>
+                <div class="div 5">
+                    <input class="button" type="submit" value="Send">
+                </div>
+        </form>
+        </div>
+    </div>
+</body>
+
+</html>
