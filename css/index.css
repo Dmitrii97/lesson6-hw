@@ -1,0 +1,32 @@
+input,
+text,
+textarea {
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 2%;
+  border: 2px solid black;
+  width: 30%;
+  background-color: #949494;
+}
+.container .div2,
+.container .div3,
+.container .div4,
+.container .div5 {
+  margin-top: 2%;
+}
+.container .button {
+  margin-top: 2%;
+  background-color: saddlebrown;
+  width: 15%;
+  padding: 1.4%;
+}
+
+/*# sourceMappingURL=index.css.map */
